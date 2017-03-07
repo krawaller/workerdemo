@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "workerwrapper": "github:krawaller/workerwrapper"
+  },
+  "scripts": {
+    "wrap": "workerwrap lib/heavylib.js",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
